@@ -3,7 +3,14 @@ import React from 'react';
 
 export default function WelcomePanel() {
     return (
-        <div className="rounded-[10px] flex flex-col justify-end items-center p-8 lg:p-[48px] bg-[#194bfb] text-white h-full">
+        <div className="rounded-[10px] flex flex-col justify-end items-center p-8 lg:p-[48px] bg-[#0064e0] text-white h-full">
+            <Image
+                src="/images/LogoKensen.png"
+                width={600}
+                height={600}
+                alt='Umroh'
+                className='w-[180px] h-auto mb-7' // Gambar ditampilkan dan berwarna hitam, posisi di tengah
+            />
             <Image
                 src="/images/Niaga.png"
                 width={700}
@@ -14,7 +21,7 @@ export default function WelcomePanel() {
             <p className="mb-5 text-center leading-[1.7em] text-sm lg:text-[15px]">
                 Enter your personal details and start journey with us
             </p>
-            <button className="border-2 rounded-[10px] w-full px-[40px] lg:px-[60px] text-white py-[10px] text-[14px] font-semibold hover:bg-white hover:text-[#6066A5]">
+            <button className="border-2 rounded-[10px] w-full px-[40px] lg:px-[60px] text-white py-[10px] text-[14px] font-semibold hover:bg-white hover:text-[#0A57B6]">
                 SIGN UP
             </button>
         </div>

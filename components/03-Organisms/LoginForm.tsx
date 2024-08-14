@@ -1,13 +1,15 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function LoginForm() {
     return (
         <>
-            <form className="w-full pl-[20px] pr-[20px] py-[30px] lg:rounded-lg max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none ">
+            <form className="w-full px-[20px] py-[30px] lg:rounded-lg max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none flex flex-col items-center">
+                
                 <h1 className="text-[20px] sm:text-[23px] font-bold mb-4 text-center">
-                    Sign in to UnivKensen
+                    Sign in to KensenUniversity
                 </h1>
-                <div className="mt-8  relative w-full">
+                <div className="mt-4 relative w-full">
                     <input
                         type="email"
                         placeholder="email@example.com"
@@ -31,7 +33,8 @@ export default function LoginForm() {
                     Forgot your password?
                 </a>
 
-                <button className="w-full bg-[#194bfb] text-white py-[13px] rounded-[10px] font-semibold text-[14px] hover:bg-[#41467C]">
+                <button
+                    className="w-full bg-[#0064e0] text-white py-[13px] rounded-[10px] font-semibold text-[14px] hover:bg-[#0A57B6]">
                     SIGN IN
                 </button>
             </form>
