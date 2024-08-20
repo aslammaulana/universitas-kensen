@@ -9,20 +9,19 @@ import Sidebar from '../Dashboard/04-Templates/Sidebar';
 import Layout from '../Layout';
 import Navbar2 from '../Dashboard/04-Templates/Navbar2';
 
-export default function DashboardPage() {
-  return (
-    <div className="bg-[#1c2431]">
-      <Navbar2/>
-      <Navbar />
-      <Layout>
-        <div className="">
-          {/* <Breadcrumb /> */}
-          <Sidebar />
-          <Content />
+export default function TabelNilaiPage() {
+    return (
+        <div className="bg-[#1c2431]">
+            <Navbar2 />
+            <Navbar />
+            <Layout>
+                <div className="">
+                    <Sidebar />
+                    <Content />
+                </div>
+            </Layout>
+            <Footer />
         </div>
-      </Layout>
-      <Footer />
-    </div>
-  );
+    );
 }
 

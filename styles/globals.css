@@ -67,3 +67,15 @@ p {
     --chart-5: 340 75% 55%;
   }
 }
+
+.animated-text:focus~div {
+  @apply translate-y-[-8px] scale-75 text-white;
+}
+
+.animated-text::placeholder {
+  opacity: 0;
+}
+
+.animated-text:not(:placeholder-shown)~div {
+  @apply translate-y-[-8px] scale-75;
+}
