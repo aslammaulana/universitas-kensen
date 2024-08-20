@@ -14,7 +14,7 @@ export default function Sidebar() {
       aria-label="Sidebar"
     >
       <div className="relative flex flex-col h-full max-h-full">
-          <Link href="/" className="px-6 pt-7">
+          <Link href="/dashboard" className="px-6 pt-7">
             <Image src="/images/LogoKensen.png" width={180} height={180} alt='Logo' />
           </Link>
           {/* End Logo */}

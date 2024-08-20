@@ -21,8 +21,8 @@ export default function TwoColumnLayout() {
             <p className="text-center leading-[1.7em] text-sm lg:text-[15px]">
                 Enter your personal details and start journey with us
             </p>
-            <button className="mt-5 border-2 rounded-[10px] w-full px-[40px] lg:px-[60px] text-white py-[10px] text-[14px] font-semibold hover:bg-white hover:text-[#0A57B6]">
-                SIGN UP
+            <button className="mt-5 border-2 border-[#ffffff75] rounded-[10px] w-full px-[40px] lg:px-[60px] text-white py-[10px] text-[14px] font-semibold hover:bg-[#f3f3f3] hover:text-[#0A57B6]">
+                Register
             </button>
         </div>
     );

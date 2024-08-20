@@ -4,8 +4,8 @@ import { SiswaJson } from '@/components/Dashboard/DataJson/SiswaJson';
 import { HiEye, HiBadgeCheck, HiArchive, HiChevronRight } from 'react-icons/hi';
 import Head from 'next/head';
 import Footer from '@/components/Dashboard/04-Templates/Footer';
-import Navbar2 from '@/components/Dashboard/04-Templates/Navbar2';
-import Navbar from '@/components/Dashboard/04-Templates/Navbar';
+import Navbar2 from '@/components/Dashboard/04-Templates/NavbarDekstop';
+import Navbar from '@/components/Dashboard/04-Templates/NavbarMobile';
 import Layout from '@/components/Layout';
 import Sidebar from '@/components/Dashboard/04-Templates/Sidebar';
 import DataSiswa from '@/components/Dashboard/03-Organisms/DataSiswa';
@@ -21,7 +21,7 @@ const SiswaDetail = () => {
     const siswa = SiswaJson.find(s => s.id === idString);
 
     if (!siswa) {
-        return ;
+        return;
     }
 
     // Tentukan gaya tombol berdasarkan status

@@ -11,7 +11,7 @@ export default function LoginPage() {
                     <div className="grid w-full max-w-4xl h-auto rounded-xl bg-[#2f3a4d] overflow-hidden shadow-lg grid-cols-1 lg:grid-cols-11">
 
                         {/* Kolom Kanan: Welcome Panel */}
-                        <div className="lg:block lg:col-span-4 py-4 px-4 flex items-center justify-center">
+                        <div className="hidden lg:block lg:col-span-4 py-4 px-4 flex items-center justify-center">
                             <TwoColumnLayout />
                         </div>
 

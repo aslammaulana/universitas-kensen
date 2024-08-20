@@ -32,7 +32,7 @@ function Navbar() {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/">
+                <Link href="/dashboard">
                   <Image src="/images/LogoKensen.png" width={180} height={180} alt='Logo' />
                 </Link>
               </div>
