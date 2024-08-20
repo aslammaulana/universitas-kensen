@@ -21,7 +21,7 @@ const SiswaDetail = () => {
     const siswa = SiswaJson.find(s => s.id === idString);
 
     if (!siswa) {
-        return <p>Siswa tidak ditemukan.</p>;
+        return ;
     }
 
     // Tentukan gaya tombol berdasarkan status
