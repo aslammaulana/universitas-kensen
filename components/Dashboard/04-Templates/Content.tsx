@@ -14,17 +14,17 @@ export default function Content() {
           <div className="flex justify-between items-end">
             <div className="">
               <p className="mt-3 text-[28px] font-semibold tracking-wide text-[#d4d6d8] ">
-                Mahasiswa
+                Dashboard
               </p>
               {/* Breadcrumb */}
               <div className="flex items-center pt-2">
                 <ol className=" flex items-center whitespace-nowrap">
                   <li className="flex items-center text-[13px] font-normal text-[#ffffff73]">
-                    Dashboard
+                    Home
                     <HiChevronRight size={15} className='fill-current w-4 h-4 mx-3' />
                   </li>
                   <li className="text-[13px] font-semibold text-[#6993dd] truncate" aria-current="page">
-                    Tabel Nilai
+                    Dashboard
                   </li>
                 </ol>
                 {/* End Breadcrumb */}

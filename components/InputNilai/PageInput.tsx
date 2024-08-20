@@ -10,7 +10,7 @@ export default function PageInput() {
             <div className="grid  w-full h-auto rounded-xl bg-[#2f3a4d] overflow-hidden shadow-lg grid-cols-1 lg:grid-cols-11">
 
                 {/* Kolom Kanan: Welcome Panel */}
-                <div className=" lg:block lg:col-span-4 py-[10px] px-[10px]">
+                <div className=" hidden lg:block lg:col-span-4 py-[10px] px-[10px] ">
                     <TwoInput />
                 </div>
                 {/* Kolom Kiri: Form Login */}

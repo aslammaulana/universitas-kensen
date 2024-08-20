@@ -5,9 +5,9 @@ export default function InputForm() {
     return (
         <>
             
-            <form className="w-full px-[20px] py-[30px] lg:rounded-lg max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none flex flex-col items-center">
+            <form className="w-full px-[10px] py-[30px] lg:rounded-lg max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none flex flex-col items-center">
 
-                <h1 className="text-[20px] sm:text-[23px] font-bold mb-4 text-center text-white ">
+                <h1 className="text-[20px] sm:text-[23px] font-bold mb-7 text-center text-white ">
                     Input Nilai Siswa
                 </h1>
                 <div className="my-2 relative w-full">

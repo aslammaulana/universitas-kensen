@@ -8,6 +8,7 @@ import Navbar from '../Dashboard/04-Templates/Navbar';
 import Sidebar from '../Dashboard/04-Templates/Sidebar';
 import Layout from '../Layout';
 import Navbar2 from '../Dashboard/04-Templates/Navbar2';
+import ContentTableNilai from '../TableNilai/ContentTableNilai';
 
 export default function TabelNilaiPage() {
     return (
@@ -17,7 +18,7 @@ export default function TabelNilaiPage() {
             <Layout>
                 <div className="">
                     <Sidebar />
-                    <Content />
+                    <ContentTableNilai />
                 </div>
             </Layout>
             <Footer />

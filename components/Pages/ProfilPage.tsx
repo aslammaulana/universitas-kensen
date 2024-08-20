@@ -8,6 +8,7 @@ import Navbar from '../Dashboard/04-Templates/Navbar';
 import Sidebar from '../Dashboard/04-Templates/Sidebar';
 import Layout from '../Layout';
 import Navbar2 from '../Dashboard/04-Templates/Navbar2';
+import ContentProfil from '../Profil/ContentProfile';
 
 export default function ProfilPage() {
     return (
@@ -17,7 +18,7 @@ export default function ProfilPage() {
             <Layout>
                 <div className="">
                     <Sidebar />
-                    <Content />
+                    <ContentProfil />
                 </div>
             </Layout>
             <Footer />
