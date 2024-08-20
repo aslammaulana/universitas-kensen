@@ -22,8 +22,8 @@ export const SiswaJson = [
         "id": "A0003",
         "nama": "Ahmad Zainuddin",
         "pelajaran": "Kimia",
-        "nilai": "90,0",
-        "status": "Tuntas"
+        "nilai": "48,0",
+        "status": "Belum Tuntas"
     },
     {
         "image": "Woman(2).jpg",
@@ -78,7 +78,7 @@ export const SiswaJson = [
         "id": "A0010",
         "nama": "Linda Sari",
         "pelajaran": "Bahasa Indonesia",
-        "nilai": "75,0",
-        "status": "Tuntas"
+        "nilai": "55,0",
+        "status": "Belum Tuntas"
     }
 ];
