@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function LoginForm() {
     return (
@@ -34,9 +35,19 @@ export default function LoginForm() {
                 </a>
 
                 <button
-                    className="w-full bg-[#4c79c7] text-white py-[13px] rounded-[10px] font-semibold text-[14px] hover:bg-[#0A57B6]">
+                    className="w-full bg-[#4c79c7] text-white py-[13px] rounded-[10px] font-semibold text-[14px] hover:bg-[#375d8b]">
                     SIGN IN
                 </button>
+                <p className='text-[12px] mb-5 block text-center text-[#ffffff91] mt-3 mb-3'>
+                    Or
+                </p>
+                <Link href='/dashboard' className='w-full'>
+                    <button
+                        className=" w-full bg-[#ffffff13]  px-10 text-[#ffffff] py-[13px] rounded-[10px] font-semibold text-[14px]  hover:bg-[#375d8b] items-start"
+                        type='button'>
+                        To Dashboard
+                    </button>
+                </Link>
             </form>
         </>
     );
