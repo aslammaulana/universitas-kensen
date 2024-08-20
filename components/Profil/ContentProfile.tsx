@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiChevronRight, HiOutlinePlus } from 'react-icons/hi'
 import DataSiswa from '../Dashboard/03-Organisms/DataSiswa'
+import PageProfile from './PageProfile'
 
 export default function ContentProfil() {
     return (
@@ -43,7 +44,7 @@ export default function ContentProfil() {
           </div> */}
                     {/* End Card */}
                 </div>
-                <DataSiswa />
+                <PageProfile />
                 {/* End Grid */}
             </div>
         </div>

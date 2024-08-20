@@ -38,7 +38,7 @@ export default function LoginForm() {
                     className="w-full bg-[#4c79c7] text-white py-[13px] rounded-[10px] font-semibold text-[14px] hover:bg-[#375d8b]">
                     Login
                 </button>
-                <p className='text-[12px] mb-5 block text-center text-[#ffffff91] mt-3 mb-3'>
+                <p className='text-[12px] mb-5 block text-center text-[#ffffff91] mt-3'>
                     Or
                 </p>
                 <Link href='/dashboard' className='w-full'>

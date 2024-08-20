@@ -1,7 +1,6 @@
 import React from 'react'
 import { HiChevronRight, HiOutlinePlus } from 'react-icons/hi'
 import DataSiswa from '../Dashboard/03-Organisms/DataSiswa'
-import FormInput from './FormInput'
 import PageInput from './PageInput'
 
 export default function ContentInput() {

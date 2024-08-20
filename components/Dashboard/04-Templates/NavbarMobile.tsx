@@ -37,25 +37,7 @@ function Navbar() {
                 </Link>
               </div>
             </div>
-            <div className="hidden md:block">
-              <div className="ml-4 flex items-center space-x-4">
-                <Link href="/" className={`font-semibold px-3 py-2 border-b-2 ${isActive('/')}`}>
-                  Home
-                </Link>
-                <Link href="/dashboard" className={`font-semibold px-3 py-2 border-b-2 ${isActive('/dashboard')}`}>
-                  Dashboard
-                </Link>
-                <Link href="/login" className={`font-semibold px-3 py-2 border-b-2 ${isActive('/login')}`}>
-                  Login
-                </Link>
-                <Link href="/dasbor" className={`font-semibold px-3 py-2 border-b-2 ${isActive('/dasbor')}`}>
-                  Dasbor2
-                </Link>
-                <Link href="/404" className={`font-semibold px-3 py-2 border-b-2 ${isActive('/404')}`}>
-                  404 Not Found
-                </Link>
-              </div>
-            </div>
+            
 
             <div className="md:hidden flex items-center">
               <button className="inline-flex items-center justify-center p-2 rounded text-[#ededed] hover:text-[#ededed] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#3f5069]" onClick={toggleNavbar}>
@@ -84,11 +66,6 @@ function Navbar() {
                 </button>
               </Link>
               <Link href='/tabelnilai'>
-                <button
-                  className={`mt-[9px] ${mobileLinkClasses('/tabelnilai')} text-[14px] font-medium py-3 px-3 rounded-lg inline-flex items-center w-full`}>
-                  <HiFolderOpen size={15} className='fill-current w-4 h-4 mr-3' />
-                  <span>Table Nilai</span>
-                </button>
               </Link>
               <Link href='/profil'>
                 <button

@@ -25,14 +25,6 @@ export default function Btn() {
                 </button>
             </Link>
 
-            <Link href='/tabelnilai'>
-                <button
-                    className={`mt-[9px] ${linkClasses('/tabelnilai')} text-[14px] font-medium py-2.5 px-3 rounded-lg inline-flex items-center w-full`}>
-                    <HiFolderOpen size={15} className='fill-current w-4 h-4 mr-3' />
-                    <span>Table Nilai</span>
-                </button>
-            </Link>
-
             <Link href='/profil'>
                 <button
                     className={`mt-[9px] ${linkClasses('/profil')} text-[14px] font-medium py-2.5 px-3 rounded-lg inline-flex items-center w-full`}>
