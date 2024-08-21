@@ -22,7 +22,7 @@ function Navbar2() {
     return (
         <>
             {/* Navbar akan disembunyikan di mobile dan hanya muncul di layar yang lebih besar */}
-            <nav className='hidden md:block  lg:ps-[260px] border-b-2 border-[#ffffff18] py-0 bg-[#12171d]'>
+            <nav className='hidden md:block  lg:ps-[260px] border-b-2 border-[#ffffff18] py-0 bg-[#303346]'>
                 <div className='max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className="flex items-center justify-between h-20">
                         <div className="flex items-center">

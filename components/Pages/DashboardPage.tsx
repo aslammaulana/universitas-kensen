@@ -11,7 +11,7 @@ import Navbar2 from '../Dashboard/04-Templates/NavbarDekstop';
 
 export default function DashboardPage() {
   return (
-    <div className="bg-[#1c2431]">
+    <div className="bg-[#2a2d40]">
       <Navbar2 />
       <Navbar />
       <Layout>
