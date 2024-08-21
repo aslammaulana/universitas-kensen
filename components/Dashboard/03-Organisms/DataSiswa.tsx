@@ -33,7 +33,7 @@ export default function DataSiswa() {
 
                     return (
                         <div key={data.id} className='mb-[15px] font-medium flex flex-col'>
-                            <div className='bg-[#303346] shadow-lg text-[#FFFFFFCF] py-[20px] pr-[20px] pl-[20px] justify-between items-center rounded-lg text-[12px]'>
+                            <div className='bg-[#2f3a4d] text-[#FFFFFFCF] py-[20px] pr-[20px] pl-[20px] justify-between items-center rounded-lg text-[12px]'>
                                 <div className='mb-5'>
                                     <button
                                         style={buttonStyle}
@@ -105,7 +105,7 @@ export default function DataSiswa() {
 
                     return (
                         <div key={data.id} className='mb-[15px] font-medium'>
-                            <div className='bg-[#303346] shadow-lg text-[#FFFFFFCF] py-[20px] pr-[20px] pl-[30px] flex grid-cols-6 justify-between items-center rounded-lg text-[12px]'>
+                            <div className='bg-[#2f3a4d] text-[#FFFFFFCF] py-[20px] pr-[20px] pl-[30px] flex grid-cols-6 justify-between items-center rounded-lg text-[12px]'>
                                 <div className="w-[8%]">
                                     <Image src={`/images/Mahasiswa/${data.image}`} width={180} height={180} alt='Logo' className='shrink-0 size-[50px] rounded-[7px]' />
                                 </div>
