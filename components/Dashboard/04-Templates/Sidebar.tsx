@@ -13,7 +13,7 @@ export default function Sidebar() {
       tabIndex={-1}
       aria-label="Sidebar"
     >
-      <div className="relative flex flex-col h-full max-h-full">
+      <div className="relative flex flex-col h-full max-h-full bg-[#1c1c24]">
           <Link href="/dashboard" className="px-6 pt-7">
             <Image src="/images/LogoKensen.png" width={180} height={180} alt='Logo' />
           </Link>

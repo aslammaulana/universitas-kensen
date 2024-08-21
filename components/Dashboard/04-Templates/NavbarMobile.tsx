@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='sticky top-0 inset-x-0 z-20 bg-[#12171d] lg:ps-[260px] border-b border-[#ffffff1c] lg:hidden'>
+      <nav className='sticky top-0 inset-x-0 z-20 bg-[#1c1c24] lg:ps-[260px] border-b border-[#ffffff1c] lg:hidden'>
         <div className='max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8'>
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
