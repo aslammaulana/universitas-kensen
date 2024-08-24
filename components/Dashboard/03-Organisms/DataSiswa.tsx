@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import { SiswaJson } from '../DataJson/SiswaJson';
+import { SiswaJson } from '../../DataJson/SiswaJson';
 import { HiArchive, HiBadgeCheck, HiEye } from 'react-icons/hi';
 import Image from 'next/image';
 

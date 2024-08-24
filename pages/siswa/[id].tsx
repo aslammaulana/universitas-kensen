@@ -1,13 +1,13 @@
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-import { SiswaJson } from '@/components/Dashboard/DataJson/SiswaJson';
+import { SiswaJson } from '@/components/DataJson/SiswaJson';
 import { HiEye, HiBadgeCheck, HiArchive, HiChevronRight } from 'react-icons/hi';
 import Head from 'next/head';
-import Footer from '@/components/Dashboard/04-Templates/Footer';
-import Navbar2 from '@/components/Dashboard/04-Templates/NavbarDekstop';
-import Navbar from '@/components/Dashboard/04-Templates/NavbarMobile';
-import Layout from '@/components/Layout';
-import Sidebar from '@/components/Dashboard/04-Templates/Sidebar';
+import Footer from '@/components/ThemeBuilder/Footer';
+import Navbar2 from '@/components/ThemeBuilder/NavbarDekstop';
+import Navbar from '@/components/ThemeBuilder/NavbarMobile';
+import Layout from '@/components/ThemeBuilder/Layout';
+import Sidebar from '@/components/ThemeBuilder/Sidebar';
 import DataSiswa from '@/components/Dashboard/03-Organisms/DataSiswa';
 
 const SiswaDetail = () => {

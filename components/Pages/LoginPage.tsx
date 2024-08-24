@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../Layout';
+import Layout from '../ThemeBuilder/Layout';
 import TwoColumnLayout from '../Login/TwoColumnLayout';
 import LoginForm from '../Login/LoginForm';
 

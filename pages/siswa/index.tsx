@@ -1,5 +1,5 @@
 // pages/siswa/index.tsx
-import { SiswaJson } from '@/components/Dashboard/DataJson/SiswaJson';
+import { SiswaJson } from '@/components/DataJson/SiswaJson';
 import Link from 'next/link';
 
 const SiswaList = () => {

@@ -5,39 +5,38 @@ export default function FormProfile() {
     return (
         <>
 
-            <form className="w-full px-[10px] py-[30px] lg:rounded-lg max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none flex flex-col items-center">
+            <form className="bg-[#2f3a4d]  w-full px-[30px] py-[30px] rounded-lg  flex flex-col ">
 
-                <h1 className="text-[20px] sm:text-[23px] font-bold mb-7 text-center text-white ">
-                    Update Profil
+                <h1 className="text-[16px] sm:text-[17px] font-bold mb-4 text-start text-white ">
+                    Update Profil Kamu
                 </h1>
                 <div className="my-2 relative w-full">
-                    <label htmlFor="nilai" className="block text-white text-[12px] font-medium mb-2">Update Nama</label>
+                    <label htmlFor="nilai" className="block text-[#ffffffd8] text-[12px] font-medium mb-2">Nama</label>
                     <input
                         type="text"
                         id="nilai"
                         className="w-full bg-[#222a35] text-white text-[14px] py-3 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3d67b1]"
-                        value="Aslam Maulana"
-                        placeholder="Masukkan Nama"
+                        placeholder="Aslam Maulana"
                     />
                 </div>
                 <div className="my-2 relative w-full">
-                    <label htmlFor="nilai" className="block text-white text-[12px] font-medium mb-2">Update Email</label>
+                    <label htmlFor="nilai" className="block text-[#ffffffd8] text-[12px] font-medium mb-2">Email</label>
                     <input
                         type="text"
                         id="nilai"
                         className="w-full bg-[#222a35] text-white text-[14px] py-3 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3d67b1]"
-                        value="Aslammaulana10@gmail.com"
-                        placeholder="Masukkan Email"
+                        placeholder="Aslammaulana10@gmail.com"
                     />
                 </div>
 
                 <div className="my-2 relative w-full">
-                    <label htmlFor="nilai" className="block text-white text-[12px] font-medium mb-2">Update Password</label>
+                    <label htmlFor="nilai" className="block text-[#ffffffd8] text-[12px] font-medium mb-2">Password</label>
                     <input
                         type="password"
                         id="nilai"
                         className="w-full bg-[#222a35] text-white text-[14px] py-3 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3d67b1]"
-                        value="Aslam123"
+                        placeholder="********"
+
                     />
                 </div>
 

@@ -1,11 +1,11 @@
 
 
 import React from 'react';
-import Footer from '../Dashboard/04-Templates/Footer';
-import Navbar from '../Dashboard/04-Templates/NavbarMobile';
-import Sidebar from '../Dashboard/04-Templates/Sidebar';
-import Layout from '../Layout';
-import Navbar2 from '../Dashboard/04-Templates/NavbarDekstop';
+import Footer from '../ThemeBuilder/Footer';
+import Navbar from '../ThemeBuilder/NavbarMobile';
+import Sidebar from '../ThemeBuilder/Sidebar';
+import Layout from '../ThemeBuilder/Layout';
+import Navbar2 from '../ThemeBuilder/NavbarDekstop';
 import ContentInput from '../InputNilai/ContentInput';
 
 export default function InputNilaiPage() {

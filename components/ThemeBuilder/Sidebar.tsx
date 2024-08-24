@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import { HiAdjustments } from "react-icons/hi";
-import Btn from '../03-Organisms/Btn';
+import Btn from '../Dashboard/03-Organisms/Btn';
 import Image from 'next/image';
 
 export default function Sidebar() {
@@ -14,20 +14,20 @@ export default function Sidebar() {
       aria-label="Sidebar"
     >
       <div className="relative flex flex-col h-full max-h-full">
-          <Link href="/dashboard" className="px-6 pt-7">
-            <Image src="/images/LogoKensen.png" width={180} height={180} alt='Logo' />
-          </Link>
-          {/* End Logo */}
+        <Link href="/dashboard" className="px-6 pt-7">
+          <Image src="/images/KenseUniv.svg" width={180} height={180} alt='Logo' />
+        </Link>
+        {/* End Logo */}
         <Btn />
-        
 
 
-       
-        
+
+
+
         {/* End Content */}
 
       </div>
-      
+
 
 
     </div>
